@@ -1,0 +1,30 @@
+{
+  "name": "lesson",
+  "version": "1.0.0",
+  "description": "lesson server snd db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ktrmu/server-dbconnection.git"
+  },
+  "keywords": [
+    "db",
+    "mongo",
+    "server"
+  ],
+  "author": "katuramu Curtis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ktrmu/server-dbconnection/issues"
+  },
+  "homepage": "https://github.com/Ktrmu/server-dbconnection#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.12",
+    "nodemon": "^2.0.6"
+  }
+}
